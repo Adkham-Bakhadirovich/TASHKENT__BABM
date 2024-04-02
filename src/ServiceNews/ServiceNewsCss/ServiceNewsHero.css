@@ -1,0 +1,451 @@
+.servicenewshero {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.servicenewshero_box {
+  display: flex;
+  padding-top: 80px;
+}
+
+.servicenewshero_box_left {
+  width: 754px;
+  padding-right: 54px;
+  border-right: 1px solid #80808080;
+}
+
+.servicenewshero_left_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.servicenewshero_left_title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.servicenewshero_left_span {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.servicenewshero_left_span_time {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.servicenewshero_left_span_time::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/Svg/watch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+
+.servicenewshero_left_span_text {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.servicenewshero_left_span_text::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/Svg/eye.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.servicenewshero_left_img {
+  width: 700px;
+  height: 380px;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.servicenewshero_left_strong {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.servicenewshero_left_next_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.servicenewshero_left_quote {
+  display: block;
+  width: 600px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.servicenewshero_left__end_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 48px;
+  margin-bottom: 0;
+}
+
+.servicenewshero_box_right {
+  width: 338px;
+  gap: 32px;
+  padding-left: 60px;
+}
+
+.servicenewshero_box_right_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.servicenewshero_box_right_list {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.servicenewshero_box_right_list_item {
+  margin-bottom: 32px;
+}
+
+.servicenewshero_box_right_list_item_time {
+  display: flex;
+  align-items: center;
+}
+
+.servicenewshero_box_right_list_item_time::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/Svg/watch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+  height: 13px;
+  margin-right: 6px;
+}
+
+.servicenewshero_box_right_list_item_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.servicenewshero_link {
+  width: 103px;
+  height: 40px;
+  top: 1522px;
+  left: 144px;
+  border-radius: 20px;
+  padding: 8px 19px;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #20afff;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+.social_box {
+  width: 569px;
+  height: 144px;
+  top: 1582.57px;
+  left: 65.5px;
+  border-radius: 25px;
+  background-color: #012245;
+  padding: 24px;
+  margin-top: 60px;
+  margin-left: 65px;
+}
+
+.social_box_title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.social_box_list {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.social_box_list_item {
+  width: 156px;
+  height: 55px;
+  border-radius: 16px;
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.social_box_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404040;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .servicenewshero_box_right {
+    display: none !important;
+  }
+
+  .servicenewshero_box_left {
+    padding-right: 0 !important;
+    border-right: none !important;
+  }
+
+  .servicenewshero_left_img {
+    width: 650px !important;
+    height: 380px;
+    display: block;
+    margin-bottom: 24px;
+  }
+
+}
+
+
+@media (max-width: 575px) and (min-width: 320px) {
+
+  .servicenewshero {
+    padding-top: 20px !important;
+    padding-bottom: 80px;
+  }
+
+  .servicenewshero_box {
+    display: block !important;
+    padding-top: 80px;
+  }
+
+  .servicenewshero_box_left {
+    width: 370px !important;
+    padding-right: 0px !important;
+    border-right: none !important;
+  }
+
+  .servicenewshero_left_text {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+  
+  .servicenewshero_left_title {
+    font-family: "Poppins";
+    font-size: 24px !important;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center !important;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .servicenewshero_left_img {
+    width: 370px !important;
+    height: 200px !important;
+    display: block;
+    margin-bottom: 24px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .servicenewshero_left_strong {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 600;
+    line-height: 10px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    margin-bottom: 16px !important;
+  }
+
+  .servicenewshero_left_next_text {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 500;
+    line-height: 14px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 25px !important;
+  }
+
+  .servicenewshero_left_quote {
+    display: block;
+    width: 370px !important;
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .servicenewshero_left__end_text {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 500;
+    line-height: 14px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .servicenewshero_box_right {
+    width: 370px !important;
+    gap: 25px !important;
+    padding-left: 0px !important;
+  }
+
+  .servicenewshero_box_right_list_item_time {
+    display: flex;
+    align-items: center;
+    font-size: 10px !important;
+  }
+
+  .servicenewshero_box_right_list_item_text {
+    font-family: "Poppins";
+    font-size: 14px !important;
+    font-weight: 500;
+    line-height: 14px !important;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
+
+  .servicenewshero_link {
+    width: 103px;
+    height: 40px;
+    top: 1522px;
+    left: 144px;
+    border-radius: 20px;
+    padding: 8px 19px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #20afff;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .servicenewshero_box_right_list_item {
+    margin-bottom: 25px !important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 370px !important;
+  }
+
+}

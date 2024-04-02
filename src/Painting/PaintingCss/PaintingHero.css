@@ -1,0 +1,205 @@
+.paintinghero {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.paintinghero_box {
+  display: flex;
+  margin-top: 80px;
+}
+
+.paintinghero_left_box {
+  width: 700px;
+  padding-right: 57px;
+  border-right: 1px solid #80808080;
+}
+
+.paintinghero_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.paintinghero_title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.paintinghero_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paintinghero_list_item_img {
+  width: 643px;
+  height: 380px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.paintinghero_list_item_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.paintinghero_list_item_text_extra {
+  margin-bottom: 0;
+}
+
+.paintinghero_ent_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 650px;
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+
+.paintinghero_link {
+  width: 103px;
+  height: 40px;
+  top: 1522px;
+  left: 144px;
+  border-radius: 20px;
+  padding: 8px 19px;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #20afff;
+  text-decoration: none;
+  color: white;
+  display: block;
+  
+}
+
+.paintinghero_right_box {
+  padding-left: 57px;
+}
+
+.paintinghero_right_box_title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3d3d3d;
+}
+
+.paintinghero_right_box_list {
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paintinghero_right_box_list_item {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 338px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bfbfbf;
+  margin-bottom: 20px;
+}
+
+.social_box {
+  width: 569px;
+  height: 144px;
+  top: 1582.57px;
+  left: 65.5px;
+  border-radius: 25px;
+  background-color: #012245;
+  padding: 24px;
+  margin-top: 60px;
+  margin-left: 65px;
+}
+
+.social_box_title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+.social_box_list {
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+}
+
+.social_box_list_item {
+  width: 156px;
+  height: 55px;
+  border-radius: 16px;
+  background-color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.social_box_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404040;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .paintinghero_right_box {
+    display: none !important;
+  }
+
+  .paintinghero_left_box {
+    width: 700px;
+    padding-right: 0px !important;
+    border-right: none !important;
+    text-align: center !important;
+  }
+
+}

@@ -1,0 +1,183 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_box_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 32px;
+}
+
+.navbar_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style-type: none;
+  column-gap: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar_list_item {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none !important;
+}
+
+.header_logo {
+  width: 158px;
+  height: 59px;
+}
+
+.school_list_item_link:hover {
+  cursor: pointer;
+}
+
+.navbar_list_item:hover {
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: none;
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .header_box_inner {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    left: 460px;
+    top: 2px;
+    width: 200px;
+  }
+
+  .burger-menu {
+   
+    text-align: right;
+  }
+
+  .burger_menu_list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: #013874;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+  }
+
+  .burger_icon {
+    color: #012245;
+    font-size: 50px;
+   
+  }
+
+  .burger-menu-button {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+
+  .burger_menu_list_item:hover {
+    opacity: 0.9;
+  }
+
+}
+
+
+
+@media (max-width: 575px) and (min-width: 320px) {
+
+  .header_box_inner {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute !important;
+    z-index: 100 !important;
+    left: 270px !important;
+    top: 2px;
+    width: 250px !important;
+  }
+
+  .burger-menu {
+    width: 100px !important;
+    text-align: right;
+  }
+
+  .burger_menu_list {
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 3px;
+    margin-left: -50px;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: #013874;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center !important;
+    width: 150px !important;
+  }
+
+  .burger_icon {
+    color: #012245;
+    font-size: 50px;
+   
+  }
+
+  .burger-menu-button {
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 0px !important;
+  }
+
+  .burger_menu_list_item:hover {
+    opacity: 0.9;
+  }
+
+  .header_logo {
+    width: 120px !important;
+    height: 50px !important;
+  }
+
+  .school_list_item_link {
+    font-size: 8px !important;
+    line-height: 16px !important;
+    text-align: center !important;
+    margin-bottom: 8px;
+  }
+
+  .hero_social_list {
+    display: none !important;
+  }
+
+}

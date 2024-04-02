@@ -1,0 +1,275 @@
+.directmain {
+  padding-top: 63px;
+  padding-bottom: 95px;
+}
+
+.directmain_box {
+  display: flex;
+}
+
+.directain_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+
+.directmain_left_box {
+  width: 694px;
+  border-right: 1px solid #80808080;
+  padding-right: 59px;
+}
+
+.accordion {
+  box-shadow: none;
+  border: none;
+}
+
+.accordion_text {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 24px;
+  padding-left: 23px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accor_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accor_list_item {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 574x;
+  padding-left: 0px;
+  margin-right: 56px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #80808080;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+
+.directmain_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 60px;
+}
+
+.directmain_list_item {
+  margin-bottom: 32px;
+  width: 338px;
+}
+
+.directmain_list_text {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.directmain_list_item_time {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.directmain_list_item_time::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/Svg/watch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.directmain_list_item_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.accor_list_item_link {
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 574x;
+  padding-left: 0px;
+  margin-right: 56px;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  margin-left: 0px;
+  text-decoration: none;
+  color: #272727;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .directmain_list {
+    display: none !important;
+  }
+
+  .directmain_left_box {
+    width: 694px;
+    border-right: none !important;
+    padding-right: 0px !important;
+  }
+
+}
+
+@media (max-width: 575px) and (min-width: 320px) {
+
+  .directmain {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .directmain_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directmain_left_box {
+    width: 370px !important;
+    border-right: none;
+    padding-right: 0px !important;
+    margin-bottom: 40px;
+  }
+
+  .directain_text {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 20px !important;
+  }
+
+  .accordion_text {
+    font-family: "Poppins";
+    font-size: 12px !important;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .directmain_list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0px !important;
+  }
+
+  .directmain_list_text {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 25px !important;
+  }
+
+  .directmain_list_item_time {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .directmain_list_item_text {
+    font-family: "Poppins";
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 0;
+  }
+
+  .accor_list_item {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 574x;
+    padding-left: 0px;
+    margin-right: 56px;
+    padding-bottom: 14px !important;
+    border-bottom: 1px solid #80808080;
+    margin-top: 16px;
+    margin-left: 40px;
+  }
+
+  .accor_list_item_link {
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 370px !important;
+    padding-left: 0px;
+    margin-right: 56px;
+    padding-bottom: 14px !important;
+    margin-top: 16px;
+    margin-left: 0px;
+    text-decoration: none;
+    color: #272727;
+  }
+
+}

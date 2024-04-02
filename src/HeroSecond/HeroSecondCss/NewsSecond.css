@@ -1,0 +1,178 @@
+.news {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.news_main_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #20afff;
+}
+
+.news_main_title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 56px;
+}
+
+.news_list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.news_list_item {
+  width: 368px;
+} 
+
+.writing_pen_extra {
+  background-image: url("../../images/Png/writing-pen.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+  border-radius: 0px;
+}
+
+.chess_extra {
+  background-image: url("../../images/Png/chess.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+}
+
+.power_extra {
+  background-image: url("../../images/Png/power.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+}
+
+.meeting_extra {
+  background-image: url("../../images/Png/meeting.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+}
+
+.airport_extra {
+  background-image: url("../../images/Png/airport.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+}
+
+.military_airdrom_extra {
+  background-image: url("../../images/Png/military-airdrom.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 368px, 200px;
+  padding-top: 15px;
+  padding-right: 272px;
+  padding-bottom: 161px;
+  padding-left: 15px;
+}
+
+.news_item_box {
+  margin-bottom: 0px;
+}
+
+.news_item_box_text {
+  width: 81px;
+  height: 24px;
+  top: 15px;
+  left: 15px;
+  border-radius: 15px;
+  color: white;
+  padding: 6px 8px;
+  background-color: #3fc1d9;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.news_item_box_text_extra {
+  width: 118px;
+}
+
+.news_item_next_box {
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0;
+  padding-left: 15px;
+}
+
+.news_item_time {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  color: #3e3e3e;
+}
+
+.news_item_time::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/Svg/watch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 13px;
+  height: 13px;
+  margin-right: 7px;
+}
+
+.news_item_next_text {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 338px;
+  margin-top: 14px;
+  margin-bottom: 0;
+}

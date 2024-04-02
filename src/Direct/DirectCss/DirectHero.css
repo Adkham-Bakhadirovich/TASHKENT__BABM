@@ -1,0 +1,19 @@
+.directhero {
+  padding-top: 39px;
+  padding-bottom: 320px;
+  background-image: url("../../images/Png/directhero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 575px) and (min-width: 320px) {
+
+  .directhero {
+    padding-top: 20px !important;
+    padding-bottom: 90px !important;
+    background-image: url("../../images/Png/directhero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}

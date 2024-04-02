@@ -1,0 +1,140 @@
+.abouthero {
+  padding-top: 39px;
+  padding-bottom: 95px;
+}
+
+.abouthero_text {
+  margin-top: 80px;
+  margin-bottom: 33px;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.abouthero_img {
+  display: block;
+  margin-bottom: 99px;
+}
+
+.abouthero_title {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 48px;
+  
+}
+
+.abouthero_big_text {
+  width: 1152px;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.abouthero_link {
+  width: 103px;
+  height: 40px;
+  top: 1522px;
+  left: 144px;
+  border-radius: 20px;
+  padding: 8px 19px;
+  font-family: "Poppins";
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #20afff;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  .abouthero_img {
+    width: 650px !important;
+    
+  }
+  
+  .abouthero_big_text {
+    max-width: 650px !important;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 48px;
+  }
+  
+}
+
+@media (max-width: 575px) and (min-width: 320px) {
+
+  .abouthero {
+    padding-top: 25px;
+    padding-bottom: 50px !important;
+  }
+
+  .abouthero_img {
+    width: 370px !important;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px !important;
+  }
+
+  .abouthero_text {
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+
+  .abouthero_title {
+    font-family: "Poppins";
+    font-size: 20px !important;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px !important;
+    
+  }
+
+  .abouthero_big_text {
+    max-width: 370px !important;
+    font-family: "Poppins";
+    font-size: 10px !important;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 30px !important;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
